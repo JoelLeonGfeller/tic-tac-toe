@@ -16,3 +16,20 @@ def display_board(board):
 my_board = ['#','X','O','O','X','X','O','X','O','O']
 
 display_board(my_board)
+
+
+
+def player_input():
+    marker = ''
+
+    while marker.lower() != 'x' and marker.lower() != 'o':
+        marker = input('Please enter O or X: ')
+
+    if marker.lower() == 'x':
+        return('X','O')
+    else:
+        return('O','X')
+
+player1, player2 = player_input()
+
+print("Player1: "+player1+" Player2: "+player2)
