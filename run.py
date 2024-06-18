@@ -1,3 +1,18 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+board = ['#',' ',' ',' ',' ',' ',' ',' ',' ',' ']
+
+
+def display_board(board):
+    print("   |     |  ")
+    print(board[1]+'  |  '+board[2]+'  | '+board[3])
+    print('___|_____|___ ')
+    print("   |     |  ")
+    print(board[4]+'  |  '+board[5]+'  | '+board[6])
+    print('___|_____|___')
+    print("   |     |  ")
+    print(board[7]+'  |  '+board[8]+'  | '+board[9])
+    print("   |     |  ")
+
+
+my_board = ['#','X','O','O','X','X','O','X','O','O']
+
+display_board(my_board)
