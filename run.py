@@ -60,3 +60,33 @@ def player_choice(board):
         position = input('Place your marker enter 1-9: ')
 
     return position 
+
+def relpayy():
+     player = input('Do you wanna play again? press "y" for yes')
+
+     return play == 'y'
+
+while True:
+     
+     board = [' ']*10
+
+     player1, player2 - player_input()
+
+     while true:
+          #display board
+          display_board(board)
+
+         #check the position
+         position - player_choice(board)
+
+          #place that marker
+          marker_placer(board,position,player1)
+
+          #chek who wins
+          if win_check:
+             print("player 1 has won!")
+             break
+          elif not 
+     
+     
+     
